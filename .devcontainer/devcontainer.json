@@ -1,18 +1,18 @@
 {
-	"name": "test",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+    "name": "test",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
     "workspaceMount": "source=${localWorkspaceFolder},target=/home/devuser/workspace,type=bind",
-	"workspaceFolder": "/home/devuser/workspace",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-vscode.cpptools",
-				"ms-python.python",
-				"SonarSource.sonarlint-vscode"
-			]
-		}
-	},
-	"postStartCommand": "git config --add safe.directory /home/devuser/workspace"
+    "workspaceFolder": "/home/devuser/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-python.python",
+                "SonarSource.sonarlint-vscode"
+            ]
+        }
+    },
+    "postStartCommand": "git config --add safe.directory /home/devuser/workspace"
 }
