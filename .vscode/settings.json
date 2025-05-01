@@ -1,0 +1,5 @@
+{
+    "sonarlint.output.showAnalyzerLogs": true,
+    "sonarlint.output.showVerboseLogs": true,
+    "sonarlint.disableTelemetry": true
+}
